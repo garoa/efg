@@ -4,7 +4,7 @@
 ## Modulo `h0`
 
 Funções para converter tamanhos e velocidades entre escala 1:87
-e mundo real (**protótipo**)
+e mundo real (**protótipo**).
 
 As funções de tamanho recebem/devolvem medidas em metros.
 
