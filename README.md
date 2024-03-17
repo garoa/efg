@@ -47,10 +47,16 @@ com 12V na fonte de bancada.
 >>> vel = h0.to_proto_speed(d, t)
 >>> print(f'O trem CPTM Frateschi chega a {d/t:.2f} m/s, ou {vel:.1f} km/h no protótipo real.')
 O trem CPTM Frateschi chega a 0.27 m/s, ou 84.4 km/h no protótipo real.
+
+```
+
+Qual deveria ser a velocidade máxima do modelo H0 para imitar os 90 km/h da CPTM?
+
+```
 >>> km = 90
 >>> ms = h0.from_proto_speed(90)
->>> print(f'A velocidade máxima dos trens CPTM é {km} km/h, ou {ms:.2f} m/s na escala H0.')
-A velocidade máxima dos trens CPTM é 90 km/h, ou 0.29 m/s na escala H0.
+>>> print(f'Os trens da CPTM chegam a {km} km/h, ou {ms:.2f} m/s na escala H0.')
+Os trens da CPTM chegam a 90 km/h, ou 0.29 m/s na escala H0.
 
 ```
 ### Como testar
