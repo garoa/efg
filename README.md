@@ -41,7 +41,7 @@ Velocidade de trem CPTM Frateschi 6318 medida na
 [Estrada de Ferro Garoa](https://garoa.net.br/wiki/Estrada_de_Ferro_Garoa)
 com 12V na fonte de bancada.
 
-```
+```python
 >>> d = 4.85  # comprimento da linha externa da EFG
 >>> t = 18  # s
 >>> vel = h0.to_proto_speed(d, t)
@@ -52,7 +52,7 @@ O trem CPTM Frateschi chega a 0.27 m/s, ou 84.4 km/h no protótipo real.
 
 Qual deveria ser a velocidade máxima do modelo H0 para imitar os 90 km/h da CPTM?
 
-```
+```python
 >>> km = 90
 >>> ms = h0.from_proto_speed(90)
 >>> print(f'Os trens da CPTM chegam a {km} km/h, ou {ms:.2f} m/s na escala H0.')
