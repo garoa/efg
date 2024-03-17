@@ -6,7 +6,7 @@
 Funções para converter tamanhos e velocidades entre escala 1:87
 e mundo real (**protótipo**)
 
-As funções de tamanho recebem/devolvem medidas em `m` na escala protótipo.
+As funções de tamanho recebem/devolvem medidas em metros.
 
 ```python
 >>> import h0
